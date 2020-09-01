@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:weather_app_intern/provider/weather_provider.dart';
 
 class NextDays extends StatelessWidget {
   @override
