@@ -33,6 +33,8 @@ class _WeatherScreenState extends State<WeatherScreen> {
                   : Consumer<WeatherDays>(
                       builder: (ctx, weather, _) => Column(
                         children: [
+                          Text('${weather.items[0].temp}'),
+                          Text('${weather.items[0].date}'),
                           Text('${weather.items[0].state}'),
                         ],
                       ),
